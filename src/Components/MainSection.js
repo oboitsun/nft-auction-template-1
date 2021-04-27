@@ -23,7 +23,7 @@ export default class MainSection extends Component {
         onClick={() => {
           showEditor('mainSection')
         }}
-        className={` w-full h-full  flex flex-col rounded-3xl relative z-30`}>
+        className={` w-full h-full  flex flex-col rounded-2xl relative z-30`}>
         {editMode && (
           <div
             className={`edit absolute top-0 left-0  w-full h-full ${hover} rounded-2xl z-30`}></div>
@@ -31,7 +31,7 @@ export default class MainSection extends Component {
 
         <div
           style={{ ...headerPattern }}
-          className={`absolute top-0 left-0 h-full w-full  rounded-3xl z-0`}></div>
+          className={`absolute top-0 left-0 h-full w-full  rounded-2xl z-0`}></div>
 
         <div className=' h-16 flex justify-end items-end 2xl:px-20 xl:px-16 lg:px-10 px-2 py-2 z-10'>
           <Favorites />
