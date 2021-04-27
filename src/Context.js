@@ -25,7 +25,7 @@ class UserProvider extends Component {
     mainSection: {
       edit: false,
       bckColor: '#a3e6ff',
-      borderWidth: 2,
+      borderWidth: 3,
       borderColor: 'white',
       pattern: 'lined',
       patternColor: 'white',
@@ -33,7 +33,7 @@ class UserProvider extends Component {
     categorySection: {
       edit: false,
       bckColor: 'red',
-      borderWidth: 2,
+      borderWidth: 3,
       borderColor: 'white',
       pattern: 'dotted',
       patternColor: 'white',
@@ -41,7 +41,7 @@ class UserProvider extends Component {
     bidSection: {
       edit: true,
       bckColor: 'red',
-      borderWidth: 2,
+      borderWidth: 3,
       borderColor: 'white',
       pattern: 'flat',
       patternColor: 'white',
@@ -49,7 +49,7 @@ class UserProvider extends Component {
     offersSection: {
       edit: false,
       bckColor: 'red',
-      borderWidth: 2,
+      borderWidth: 3,
       borderColor: 'white',
       pattern: 'flat',
       patternColor: 'white',

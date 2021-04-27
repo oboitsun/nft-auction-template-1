@@ -27,7 +27,9 @@ export default class BidSection extends Component {
         {editMode && <div className={`absolute top-0 left-0 h-full w-full ${hover} z-20 `}></div>}
 
         <div
-          style={{ ...categoryPattern }}
+          style={{
+            ...categoryPattern,
+          }}
           className={`absolute top-0 left-0 h-full w-full   z-0`}></div>
         <div className='w-1/2 border-r p-1 z-10'>
           <Bid />

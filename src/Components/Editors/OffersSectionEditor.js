@@ -53,13 +53,13 @@ export default class OffersSectionEditor extends Component {
             id='borderWidth'
             className='rounded-lg overflow-hidden appearance-none bg-gray-400 h-3 w-128 mt-1'
             onChange={(event) => {
-              changeSectionProp('offersSection', 'borderWidth', event.target.value)
+              changeSectionProp('offersSection', 'borderWidth', parseInt(event.target.value))
             }}
             defaultValue={state.offersSection.borderWidth}
-            step='2'
+            step='3'
             type='range'
             min='0'
-            max='4'
+            max='6'
           />
         </div>
       </div>

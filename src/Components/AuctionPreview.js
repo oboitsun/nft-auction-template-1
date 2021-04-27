@@ -49,13 +49,13 @@ export default class AuctionPreview extends Component {
               className='px-4 py-2 rounded-lg border border-white uppercase'>
               {editMode ? 'on' : 'off'}
             </button>
-            {/* <div className='flex flex-col max-w-sm'>
-            {status.map((k, i) => (
-              <div key={i}>
-                {k[0]}:{JSON.stringify(k[1], null, 2)}
-              </div>
-            ))}
-          </div> */}
+            <div className='flex flex-col max-w-sm'>
+              {status.map((k, i) => (
+                <div key={i}>
+                  {k[0]}:{JSON.stringify(k[1], null, 2)}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

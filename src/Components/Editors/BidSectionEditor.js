@@ -53,13 +53,13 @@ export default class BidSectionEditor extends Component {
             id='borderWidth'
             className='rounded-lg overflow-hidden appearance-none bg-gray-400 h-3 w-128 mt-1'
             onChange={(event) => {
-              changeSectionProp('bidSection', 'borderWidth', event.target.value)
+              changeSectionProp('bidSection', 'borderWidth', parseInt(event.target.value))
             }}
             defaultValue={state.bidSection.borderWidth}
-            step='2'
+            step='3'
             type='range'
             min='0'
-            max='4'
+            max='6'
           />
         </div>
       </div>

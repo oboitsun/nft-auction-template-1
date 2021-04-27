@@ -9,6 +9,7 @@ export const choosePattern = (where, color, rotate = 45) => {
       opacity: 0.4,
       backgroundImage: `radial-gradient(${color} 1px, transparent 1px), radial-gradient(${color} 1px, transparent 1px)`,
       backgroundSize: '5px 5px',
+
       backgroundPosition: '0 0,2.5px 2.5px',
     },
     lined: {
@@ -16,7 +17,9 @@ export const choosePattern = (where, color, rotate = 45) => {
       background: `repeating-linear-gradient( ${rotate}deg, ${color} , ${color} 2px, transparent 2px, transparent 10px)`,
     },
     gradient: {
-      opacity: 0.8,
+      backgroundSize: '100% 100%',
+      opacity: 0.5,
+      backgroundRepeat: 'repeat',
       backgroundImage: `linear-gradient(180deg, ${color} 0%, rgba(8,19,35,0) 100%)`,
     },
   }
